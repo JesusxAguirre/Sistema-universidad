@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/output.css">
 	<!-- libreria Jquery -->
 	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/sidebar.js"></script>
 </head>
 <body>
 <div class="flex flex-row">
