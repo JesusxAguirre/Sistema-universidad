@@ -4,9 +4,12 @@
 	<title>Dashboard</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=0.6">
+	<!-- Imagen universidad -->
 	<link rel="Shortcut Icon" href="img/favicon.png">
+
 	<link rel="stylesheet" href="css/output.css">
-	<script src="https://unpkg.com/vue@3"></script>
+	<!-- libreria Jquery -->
+	<script src="js/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 <div class="flex flex-row">
