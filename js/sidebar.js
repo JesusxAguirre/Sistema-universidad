@@ -3,7 +3,10 @@ $(document).ready(function(){
     //aqui va el codigo javascript
 
         $("#submenu").hide();
+        $("#submenu2").hide();
+        
         $("#mostrar").click(mostrar);
+        $("#mostrar2").click(mostrar2);
  });
  
  
@@ -12,3 +15,8 @@ function mostrar(){
 
 
 }
+function mostrar2(){
+    $("#submenu2").toggle();
+   
+   
+   }

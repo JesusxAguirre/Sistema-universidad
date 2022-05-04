@@ -30,16 +30,16 @@
           require_once 'dropdown item list/servicios.php';
           ?>
           <!--  FIN DROPDOWN SERVICIOS ITEM -->
-          
-          <div class="p-2 hover:bg-pink-100">
-              <div class="flex flex-row space-x-3">
-                <div class="h-6 w-6 text-pink-700">
-                <i class="text-2xl fa-solid fa-chart-pie"></i> 
-                </div>
-                <h4 class="font-bold text-gray-500 
-                hover:text-pink-500">Gráficas</h4>
-            </div>
-          </div>
+          <!-- GRAFICAS ITEM -->
+          <?php
+          require_once 'sidebar item list/graficas.php';
+          ?>
+          <!--  FIN GRAFICAS ITEM -->
+           <!-- DROPDOWN SERVICIOS ITEM -->
+           <?php
+          require_once 'dropdown item list/graficas.php';
+          ?>
+          <!--  FIN DROPDOWN SERVICIOS ITEM -->
           
         </div>
         <div class="flex flex-col">
