@@ -15,80 +15,22 @@
            Usuarios
          </div>
         <div class="flex flex-col flex-auto">
-          <div class="p-2 hover:bg-pink-100">
-              <div class="flex flex-row space-x-3">
-                <div class="h-6 w-6 text-pink-700">
-                <i class="text-2xl fa-solid fa-house"></i>
-                </div>
-                <h4 class="font-bold text-gray-500 
-                hover:text-pink-500">Dashboard</h4>
-            </div>
-          </div>
-          <div class="p-2 hover:bg-pink-100">
-              <div class="flex flex-row space-x-3">
-                <div class="h-6 w-6 text-pink-700">
-                <i class="ml-1 text-2xl fa-solid fa-prescription-bottle-medical"></i>
-                
-                </div>
-                <div class="dropdown relative">
-                <h4 id="mostrar" class="font-bold text-gray-500 
-                hover:text-pink-500">Servicios</h4>
-                <ul id="submenu"  class="dropdown-menu
-          min-w-max
-          absolute
-          hidden
-          text-base
-          z-10
-          float-left
-          py-2
-          text-left 
-          mt-1
-          m-0
-          bg-clip-padding
-          border-none
+          <!-- DASHBOARD ITEM -->
+        <?php
+          require_once 'sidebar item list/dashboard.php';
+          ?>
+          <!--  FIN DASHBOARD ITEM -->
+          <!-- SERVICIOS ITEM -->
+          <?php
+          require_once 'sidebar item list/servicios.php';
+          ?>
+          <!--  FIN SERVICIOS ITEM -->
+           <!-- DROPDOWN SERVICIOS ITEM -->
+           <?php
+          require_once 'dropdown item list/servicios.php';
+          ?>
+          <!--  FIN DROPDOWN SERVICIOS ITEM -->
           
-          "> 
-          <li><a class=" dropdown-item
-              text-sm
-              py-2
-              px-4
-              font-normal
-              block
-              w-full
-              whitespace-nowrap
-              text-gray-700
-              hover:bg-gray-100" href="#">
-              <i class="text-sm fa-solid fa-arrow-right"></i>Opcion1
-            </a></li>
-                <li ><a class=" dropdown-item
-              text-sm
-              py-2
-              px-4
-              font-normal
-              block
-              w-full
-              whitespace-nowrap
-              text-gray-700
-              hover:bg-gray-100" href="#">
-              <i class="text-sm fa-solid fa-arrow-right"></i> Opcion2
-            </a></li>
-                <li><a  class="dropdown-item
-              text-sm
-              py-2
-              px-4
-              font-normal
-              block
-              w-full
-              whitespace-nowrap
-              text-gray-700
-              " href="#">
-              <i class="text-sm fa-solid fa-arrow-right"></i> Opcion 3
-            </a>
-          </li>
-              </ul>
-              </div>
-            </div>
-          </div>
           <div class="p-2 hover:bg-pink-100">
               <div class="flex flex-row space-x-3">
                 <div class="h-6 w-6 text-pink-700">
