@@ -20,21 +20,39 @@
           require_once 'sidebar item list/dashboard.php';
           ?>
           <!--  FIN DASHBOARD ITEM -->
+
+
           <!-- SERVICIOS ITEM -->
           <?php
           require_once 'sidebar item list/servicios.php';
           ?>
           <!--  FIN SERVICIOS ITEM -->
+
            <!-- DROPDOWN SERVICIOS ITEM -->
            <?php
           require_once 'dropdown item list/servicios.php';
           ?>
-          <!--  FIN DROPDOWN SERVICIOS ITEM -->
+
+
+          <!-- Atencion ITEM -->
+          <?php
+          require_once 'sidebar item list/atencion.php';
+          ?>
+          <!--  FIN ATENCION ITEM -->
+
+           <!-- DROPDOWN ATENCION ITEM -->
+         
+          <!--  FIN DROPDOWN ATENCION ITEM -->
+
+
+
           <!-- GRAFICAS ITEM -->
           <?php
           require_once 'sidebar item list/graficas.php';
           ?>
           <!--  FIN GRAFICAS ITEM -->
+
+
            <!-- DROPDOWN SERVICIOS ITEM -->
            <?php
           require_once 'dropdown item list/graficas.php';
