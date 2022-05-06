@@ -46,14 +46,10 @@
                     <!--Aqui terminan las Grid -->
                 </div>
 
-                <div class=" mt-5 grid  lg:grid-cols-3  md:grid-cols-3 p-4 gap-3">
+                <div class=" mt-5 grid  lg:grid-cols-1  md:grid-cols-2 p-4 gap-3">
 
 <div class="col-span-2 flex flex-col   p-8 bg-white rounded shadow-sm">
  
-</div>
-
-<div class=" flex flex-col   p-5 bg-white rounded shadow-sm">
-
 </div>
 
 </div>
