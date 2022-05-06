@@ -55,28 +55,61 @@
                                     <thead class="bg-black border-b-2 border-gray-200">
                                     <tr>
                                         <th class=" w-12 border border-gray-500 px-4 py-2  text-white p-3 text-sm  font-semibold  tracking-wide">
-                                            ID De Paciente
+                                           Cédula de empleado
                                         </th>
                                       
                                         <th class=" bg border border-gray-500 px-4 py-2  text-white p-3 text-sm  font-semibold  tracking-wide">
-                                           Fecha
+                                         Nombres
+                                        </th>
+                                        <th class=" bg border border-gray-500 px-4 py-2  text-white p-3 text-sm  font-semibold  tracking-wide">
+                                           Apellidos
+                                        </th>
+                                        <th class=" bg border border-gray-500 px-4 py-2  text-white p-3 text-sm  font-semibold  tracking-wide">
+                                          Teléfono
+                                        </th>
+                                        <th class=" bg border border-gray-500 px-4 py-2  text-white p-3 text-sm  font-semibold  tracking-wide">
+                                        Dirección
+                                        </th>
+                                        <th class=" bg border border-gray-500 px-4 py-2  text-white p-3 text-sm  font-semibold  tracking-wide">
+                                        Fecha de nacimiento
                                         </th>
                                         <th class=" w-20 border border-gray-500 px-4 py-2  text-white p-3 text-sm  font-semibold  tracking-wide">
-                                            Acciones
+                                           Cargo
+                                        </th>
+                                        <th class=" w-20 border border-gray-500 px-4 py-2  text-white p-3 text-sm  font-semibold  tracking-wide">
+                                           Rol de usuario
+                                        </th>
+                                        <th class=" w-20 border border-gray-500 px-4 py-2  text-white p-3 text-sm  font-semibold  tracking-wide">
+                                           Acciones
                                         </th>
                                       
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr class="bg-blue-200" v-for="h in hematologia.data" :key="h.id">
-                                        <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700  whitespace-nowrap">{{h.pacientes_id}}</td>
+                                        <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700  whitespace-nowrap">27666555</td>
                                 
-                                        <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700 whitespace-nowrap">{{ moment(h.fecha).format("DD-MM-YYYY") }}</td>
+                                        <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700 whitespace-nowrap">Jesus David</td>
                                        
                                         <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700 whitespace-nowrap">
-                                            
-                                            <Link class="px-4 py-1" :href="route('hematologiac.edit', { hematologiac : h})" ><i  class="text-4xl fa-solid fa-user-pen  text-green-400 hover:text-green-700"></i></Link>
-                                            
+                                        Aguirre Bastidas       
+                                    </td>
+                                        <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700 whitespace-nowrap">
+                                    0412-1234567        
+                                    </td>
+                                        <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700 whitespace-nowrap">
+                                    Cabudare        
+                                    </td>
+                                        <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700 whitespace-nowrap">
+                                    04/06/1999        
+                                    </td>
+                                        <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700 whitespace-nowrap">
+                                    Programador        
+                                    </td>
+                                        <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700 whitespace-nowrap">
+                                    Administrador        
+                                    </td>
+                                        <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700 whitespace-nowrap">
                                             </td>
                                            
                                     </tr>
