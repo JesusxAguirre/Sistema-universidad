@@ -48,9 +48,43 @@
 
                 <div class=" mt-5 grid  lg:grid-cols-1  md:grid-cols-2 p-4 gap-3">
 
-<div class="col-span-2 flex flex-col   p-8 bg-white rounded shadow-sm">
- 
-</div>
+					<div class="col-span-2 flex flex-col   p-8 bg-white rounded shadow-sm">
+							
+					<div class=" overflow-auto rounded-lg  hidden md:block">
+                                <table class="table-auto w-full">
+                                    <thead class="bg-black border-b-2 border-gray-200">
+                                    <tr>
+                                        <th class=" w-12 border border-gray-500 px-4 py-2  text-white p-3 text-sm  font-semibold  tracking-wide">
+                                            ID De Paciente
+                                        </th>
+                                      
+                                        <th class=" bg border border-gray-500 px-4 py-2  text-white p-3 text-sm  font-semibold  tracking-wide">
+                                           Fecha
+                                        </th>
+                                        <th class=" w-20 border border-gray-500 px-4 py-2  text-white p-3 text-sm  font-semibold  tracking-wide">
+                                            Acciones
+                                        </th>
+                                      
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="bg-blue-200" v-for="h in hematologia.data" :key="h.id">
+                                        <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700  whitespace-nowrap">{{h.pacientes_id}}</td>
+                                
+                                        <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700 whitespace-nowrap">{{ moment(h.fecha).format("DD-MM-YYYY") }}</td>
+                                       
+                                        <td class=" border border-gray-500 px-4 py-2 p-3 text-sm  text-gray-700 whitespace-nowrap">
+                                            
+                                            <Link class="px-4 py-1" :href="route('hematologiac.edit', { hematologiac : h})" ><i  class="text-4xl fa-solid fa-user-pen  text-green-400 hover:text-green-700"></i></Link>
+                                            
+                                            </td>
+                                           
+                                    </tr>
+                                
+                                </tbody>                            
+                            </table>
+                        </div>
+					</div>
 
 </div>
 </div>
