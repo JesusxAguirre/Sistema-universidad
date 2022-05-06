@@ -4,6 +4,8 @@ $(document).ready(function(){
 
         $("#submenu").hide();
         $("#submenu2").hide();
+        $("#empleadossub").hide();
+        $("#serviciossub").hide();
         
         $("#mostrar").click(mostrar);
         $("#mostrar2").click(mostrar2);
