@@ -10,7 +10,7 @@
         <li>
           <a
             class="dropdown-item text-sm mt-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-black hover:bg-gray-700 hover:text-white focus:text-white focus:bg-gray-700 active:bg-blue-600"
-            href="#"
+            href="?pagina=servicios"
             >Opcion1</a
           >
         </li>
