@@ -1,16 +1,28 @@
 $(document).ready(function(){
     
     //aqui va el codigo javascript
-
+        //OCULTAMIENTO
         $("#submenu").hide();
         $("#submenu2").hide();
         $("#empleadossub").hide();
         $("#serviciossub").hide();
         
+        $("#atencionsub").hide();
+          //FIN OCULTAMIENTO
+        //SERVICIOS
         $("#mostrar").click(mostrar);
-        $("#mostrar2").click(mostrar2);
+          
         $("#mostrar_empleados").click(mostrar_empleados);
         $("#mostrar_servicios").click(mostrar_servicios);
+        //FIN SERVICIOS
+
+        //ATENCION
+        $("#mostrar_atencion").click(mostrar_atencion);
+  
+
+
+
+          //FIN ATENCION
 
  });
  
@@ -32,6 +44,7 @@ function mostrar_empleados(){
    }
 function mostrar_servicios(){
     $("#serviciossub").toggle();
-   
-   
-   }
+}
+function mostrar_atencion(){
+    $("#atencionsub").toggle();
+}  

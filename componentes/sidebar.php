@@ -41,7 +41,9 @@
           <!--  FIN ATENCION ITEM -->
 
            <!-- DROPDOWN ATENCION ITEM -->
-         
+           <?php
+          require_once 'dropdown item list/atencion.php';
+          ?>
           <!--  FIN DROPDOWN ATENCION ITEM -->
 
 
