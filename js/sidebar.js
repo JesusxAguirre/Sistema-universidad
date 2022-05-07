@@ -4,21 +4,50 @@ $(document).ready(function(){
         //OCULTAMIENTO
         $("#submenu").hide();
         $("#submenu2").hide();
+       
+       
         $("#empleadossub").hide();
         $("#serviciossub").hide();
         
+       
+       
+        //ATENCION
         $("#atencionsub").hide();
-          //FIN OCULTAMIENTO
+        $("#afiliacionsub").hide();
+        $("#plansub").hide();
+        $("#contratossub").hide();
+        $("#pagossub").hide();
+       
+       
+       
+       
+        //FIN OCULTAMIENTO
+       
+       //LLAMADA DE FUNCIONES TOOGLE
+
+
         //SERVICIOS
         $("#mostrar").click(mostrar);
           
         $("#mostrar_empleados").click(mostrar_empleados);
+        
         $("#mostrar_servicios").click(mostrar_servicios);
         //FIN SERVICIOS
 
+
+
+
         //ATENCION
         $("#mostrar_atencion").click(mostrar_atencion);
-  
+            
+        $("#mostrar_afiliacion").click(mostrar_afiliacion);
+
+        $("#mostrar_plan").click(mostrar_plan);
+
+        $("#mostrar_contratos").click(mostrar_contratos);
+
+        $("#mostrar_pagos").click(mostrar_pagos);
+
 
 
 
@@ -47,4 +76,16 @@ function mostrar_servicios(){
 }
 function mostrar_atencion(){
     $("#atencionsub").toggle();
+}  
+function mostrar_afiliacion(){
+    $("#afiliacionsub").toggle();
+}  
+function mostrar_plan(){
+    $("#plansub").toggle();
+}  
+function mostrar_contratos(){
+    $("#contratossub").toggle();
+}  
+function mostrar_pagos(){
+    $("#pagossub").toggle();
 }  
