@@ -14,6 +14,7 @@ $(document).ready(function(){
         //ATENCION
         $("#atencionsub").hide();
         $("#afiliacionsub").hide();
+       
         $("#plansub").hide();
         $("#contratossub").hide();
         $("#pagossub").hide();
@@ -30,7 +31,7 @@ $(document).ready(function(){
         $("#mostrar").click(mostrar);
           
         $("#mostrar_empleados").click(mostrar_empleados);
-        
+
         $("#mostrar_servicios").click(mostrar_servicios);
         //FIN SERVICIOS
 

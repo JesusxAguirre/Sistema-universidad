@@ -12,13 +12,24 @@
       </a>
       <ul class="relative accordion-collapse collapse" id="afiliacionsub" >
         <li class="relative">
-          <a href="?pagina=servicios" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Listar Empleados</a>
+          <a href="?pagina=servicios" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Listar Afiliados</a>
         </li>
         <li class="relative">
-          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Registrar Empleados</a>
+          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Registrar Afiliados</a>
         </li>
         <li class="relative">
-          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Reporte de Empleados</a>
+          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Reporte de Afiliados</a>
+        </li>
+        <hr class="my-2 border-dashed w-48 border-emerald-900 ">
+
+        <li class="relative">
+          <a href="?pagina=servicios" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Listar Beneficiados</a>
+        </li>
+        <li class="relative">
+          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Registrar Beneficiados</a>
+        </li>
+        <li class="relative">
+          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Reporte de Beneficiados</a>
         </li>
         
       </ul>
