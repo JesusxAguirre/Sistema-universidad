@@ -2,26 +2,32 @@ $(document).ready(function(){
     
     //aqui va el codigo javascript
         //OCULTAMIENTO
-        $("#submenu").hide();
-        $("#submenu2").hide();
+                $("#submenu").hide();
+                $("#submenu2").hide();
+            
+            
+                $("#empleadossub").hide();
+                $("#serviciossub").hide();
+                
+            
+            
+                //ATENCION
+                $("#atencionsub").hide();
+                $("#afiliacionsub").hide();
+            
+                $("#plansub").hide();
+                $("#contratossub").hide();
+                $("#pagossub").hide();
+            
        
-       
-        $("#empleadossub").hide();
-        $("#serviciossub").hide();
-        
-       
-       
-        //ATENCION
-        $("#atencionsub").hide();
-        $("#afiliacionsub").hide();
-       
-        $("#plansub").hide();
-        $("#contratossub").hide();
-        $("#pagossub").hide();
-       
-       
-       
-       
+                //GRAFICAS
+                $("#graficassub").hide();
+                $("#afiliacionsub").hide();
+
+
+
+
+
         //FIN OCULTAMIENTO
        
        //LLAMADA DE FUNCIONES TOOGLE
@@ -34,8 +40,6 @@ $(document).ready(function(){
 
         $("#mostrar_servicios").click(mostrar_servicios);
         //FIN SERVICIOS
-
-
 
 
         //ATENCION
@@ -54,6 +58,16 @@ $(document).ready(function(){
 
           //FIN ATENCION
 
+          
+        //GRAFICAS
+       
+        $("#mostrar_graficas").click(mostrar_graficas);
+
+
+          //FIN GRAFICAS
+
+
+        
  });
  
  
@@ -89,4 +103,7 @@ function mostrar_contratos(){
 }  
 function mostrar_pagos(){
     $("#pagossub").toggle();
+}  
+function mostrar_graficas(){
+    $("#graficassub").toggle();
 }  

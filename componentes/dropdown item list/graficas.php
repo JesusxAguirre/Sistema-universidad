@@ -1,35 +1,49 @@
-<!-- DROPDOWN GRAFICA ITEM -->
+<!-- DROPDOWN GRAFICAS ITEM -->
 
-<div id="submenu2" class="p-2 hover:bg-pink-100">
+<div id="graficassub" class="p-2 hover:bg-pink-100">
               <div class="flex flex-row space-x-3">
-                  <div class="dropdown relative">
-                  <ul 
-        class="dropdown-menu min-w-max absolute  text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1  bg-clip-padding border-none"
-        aria-labelledby="dropdownMenuButton2"
-      >
-        <li>
-          <a
-            class="dropdown-item text-sm mt-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-black hover:bg-gray-700 hover:text-white focus:text-white focus:bg-gray-700 active:bg-blue-600"
-            href="#"
-            >Grafica de servicios</a
-          >
+                
+                  <ul class="relative">
+    <li class="relative" id="mostrar_empleados">
+      <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out cursor-pointer" >
+      <i class="fa-solid fa-user-doctor"></i>
+        <span>Graficas I</span>
+        <i class="ml-2 fa-solid fa-angle-down w-3 h-3 "></i>
+      </a>
+      <ul class="relative accordion-collapse collapse" id="empleadossub" >
+        <li class="relative">
+          <a href="?pagina=servicios" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Listar Empleados</a>
         </li>
-        <li>
-          <a
-            class="dropdown-item text-sm mt-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-black hover:bg-gray-700 hover:text-white focus:text-white focus:bg-gray-700"
-            href="#"
-            >Grafica 2</a
-          >
+        <li class="relative">
+          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Registrar Empleados</a>
         </li>
-        <li>
-          <a
-            class="dropdown-item text-sm mt-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-black hover:bg-gray-700 hover:text-white focus:text-white focus:bg-gray-700"
-            href="#"
-            >Grafica 3</a
-          >
+        <li class="relative">
+          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Reporte de Empleados</a>
         </li>
-      
+        
       </ul>
-                  </div>
+    </li>
+    <li class="relative" id="mostrar_servicios">
+      <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out cursor-pointer" data-bs-target="#collapseSidenavEx2" aria-expanded="false" aria-controls="collapseSidenavEx2">
+      <i class="fa-solid fa-file-medical"></i>
+
+        <span>Graficas II</span>
+        <i class="ml-2 fa-solid fa-angle-down w-3 h-3 "></i>
+      </a>
+      <ul class="relative accordion-collapse collapse" id="serviciossub">
+        <li class="relative">
+          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Listar servicios</a>
+        </li>
+        <li class="relative">
+          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Registro de servicios</a>
+        </li>
+        <li class="relative">
+          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Reporte de servicios</a>
+        </li>
+      </ul>
+    </li>
+    
+      </ul>
+
             </div>
           </div>
