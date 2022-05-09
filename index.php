@@ -8,6 +8,6 @@ if (empty($_GET['pagina'])) {
 if (is_file("controlador/".$pagina.".php")) {
 	require_once("controlador/".$pagina.".php");
 } else {
-	echo "Página en costrucción";
+	require_once("componentes/construccion.php");
 }
 ?>
