@@ -12,7 +12,7 @@
       </a>
       <ul class="relative accordion-collapse collapse" id="empleadossub" >
         <li class="relative">
-          <a href="?pagina=servicios" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Listar Empleados</a>
+          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Listar Empleados</a>
         </li>
         <li class="relative">
           <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Registrar Empleados</a>
@@ -32,10 +32,10 @@
       </a>
       <ul class="relative accordion-collapse collapse" id="serviciossub">
         <li class="relative">
-          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Listar servicios</a>
+          <a href="?pagina=servicios" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Listar servicios</a>
         </li>
         <li class="relative">
-          <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Registro de servicios</a>
+          <a href="?pagina=servicios-registrar" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Registro de servicios</a>
         </li>
         <li class="relative">
           <a href="#!" class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out" >Reporte de servicios</a>
