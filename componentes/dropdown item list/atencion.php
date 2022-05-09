@@ -6,7 +6,7 @@
     <ul class="relative">
     <li class="relative" id="mostrar_afiliacion">
       <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out cursor-pointer" >
-      <i class="fa-solid fa-user-doctor"></i>
+      <i class="fa-solid fa-address-book"></i>
         <span>Afiliacion</span>
         <i class="ml-2 fa-solid fa-angle-down w-3 h-3 "></i>
       </a>
@@ -36,8 +36,8 @@
     </li>
     <li class="relative" id="mostrar_plan">
       <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out cursor-pointer" >
-      <i class="fa-solid fa-file-medical"></i>
-
+      <i class="fa-solid fa-clipboard-user"></i>
+ 
         <span>Plan de salud</span>
         <i class="ml-2 fa-solid fa-angle-down w-3 h-3 "></i>
       </a>
@@ -55,7 +55,7 @@
     </li>
     <li class="relative" id="mostrar_contratos">
       <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out cursor-pointer" >
-      <i class="fa-solid fa-file-medical"></i>
+      <i class="fa-solid fa-id-card-clip"></i>
 
         <span>Contratos</span>
         <i class="ml-2 fa-solid fa-angle-down w-3 h-3 "></i>
@@ -74,7 +74,7 @@
     </li>
     <li class="relative" id="mostrar_pagos">
       <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out cursor-pointer" >
-      <i class="fa-solid fa-file-medical"></i>
+      <i class="fa-solid fa-sack-dollar"></i>
 
         <span>Pagos</span>
         <i class="ml-2 fa-solid fa-angle-down w-3 h-3 "></i>
