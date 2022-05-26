@@ -7,6 +7,7 @@
     <title>Plantilla</title>
 </head>
 <body>
+  
     <div class="flex-auto">
         <div class="flex flex-col">
             <div class="flex flex-col bg-white">
