@@ -1,35 +1,27 @@
-<!-- DROPDOWN GRAFICA ITEM -->
+<!-- DROPDOWN GRAFICAS ITEM -->
 
-<div id="submenu2" class="p-2 hover:bg-pink-100">
+<div id="graficassub" class="p-2 hover:bg-pink-100">
               <div class="flex flex-row space-x-3">
-                  <div class="dropdown relative">
-                  <ul 
-        class="dropdown-menu min-w-max absolute  text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none"
-        aria-labelledby="dropdownMenuButton2"
-      >
-        <li>
-          <a
-            class="dropdown-item text-sm mt-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-black hover:bg-gray-700 hover:text-white focus:text-white focus:bg-gray-700 active:bg-blue-600"
-            href="#"
-            >Grafica de servicios</a
-          >
-        </li>
-        <li>
-          <a
-            class="dropdown-item text-sm mt-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-black hover:bg-gray-700 hover:text-white focus:text-white focus:bg-gray-700"
-            href="#"
-            >Grafica 2</a
-          >
-        </li>
-        <li>
-          <a
-            class="dropdown-item text-sm mt-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-black hover:bg-gray-700 hover:text-white focus:text-white focus:bg-gray-700"
-            href="#"
-            >Grafica 3</a
-          >
-        </li>
+                
+                  <ul class="relative">
+    <li class="relative" id="mostrar_empleados">
+      <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out cursor-pointer" >
+      <i class="text-2xl fa-solid fa-chart-pie"></i>
+        <span>Graficas I</span>
+       
+      </a>
+    </li>
+    <li class="relative" id="mostrar_servicios">
+      <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black  transition duration-300 ease-in-out cursor-pointer" data-bs-target="#collapseSidenavEx2" aria-expanded="false" aria-controls="collapseSidenavEx2">
+      <i class="text-2xl fa-solid fa-chart-pie"></i>
+
+        <span>Graficas II</span>
+        
+      </a>
       
+    </li>
+    
       </ul>
-                  </div>
+
             </div>
           </div>

@@ -1,7 +1,10 @@
 module.exports = {
-  content: ["./vista/**/*.{html,js,php}","./componentes/**/*.{html,js,php}"],
+  content: [
+    "./vista/**/*.php",
+    "./componentes/**/*.php",
+  ],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};
