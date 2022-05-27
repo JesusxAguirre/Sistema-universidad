@@ -1,9 +1,4 @@
-<div id="mostrar_graficas"  class="p-2 hover:bg-pink-100">
-              <div class="flex flex-row space-x-3">
-                <div class="h-6 w-6 text-pink-700">
+<div id="mostrar_graficas"  class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-500 text-white">
                 <i class="lg:text-2xl md:text-base text-sm fa-solid fa-chart-pie"></i> 
-                </div>
-                <h4  class="lg:visible invisible p-1 font-bold text-gray-500 
-                hover:text-pink-500">Gráficas</h4>
-            </div>
+                <span  class="text-[15px] ml-4 text-gray-200">Gráficas</span>
           </div>
