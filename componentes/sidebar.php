@@ -12,9 +12,14 @@
 
 <body>
 
-  <div class="flex flex-col  space-y-5 justify-between min-h-screen
-   px-2 py-4 bg-gray-200 lg:w-52  md:w-24  w-16">
-   
+  <div class="sidebar fixed top-0 bottom-0 lg:left-0 p-2 w-[300px] overflow-y-auto
+  text-center bg-gray-900">
+      <div class="text-gray-100 text-xl">
+          <div class="p-2.5 mt-1 flex items-center">
+          <i class="bg-blue-500 p-3 rounded lg:hidden fa-solid fa-align-justify"></i>
+          </div>
+          <hr class="my-2 text-gray-600">
+      </div>
     <div class="flex flex-col flex-auto">
       <!-- DASHBOARD ITEM -->
       <?php
