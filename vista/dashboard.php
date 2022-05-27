@@ -12,7 +12,7 @@
 	<script src="js/jquery-3.6.0.min.js"></script>
 	<script src="js/sidebar.js"></script>
 </head>
-<body>
+<body class="bg-white font-[Poppins]">
 <div class="flex flex-row">
 		<!-- SIDEBAR -->
 		<?php

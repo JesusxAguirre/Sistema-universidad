@@ -65,6 +65,12 @@ $(document).ready(function(){
 
 
           //FIN GRAFICAS
+        //sidebar
+       
+        $("#mostrar_sidebar").click(mostrar_sidebar);
+
+
+          //FIN sidebar
 
 
         
