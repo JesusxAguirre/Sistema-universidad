@@ -6,5 +6,5 @@
 
     <span class="text-[15px] ml-4 text-gray-200 ">Dashboard</span>
 
-  </a>
+  </a>  
 </div>
