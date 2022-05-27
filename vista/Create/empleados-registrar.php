@@ -37,29 +37,39 @@
                             <form class=" grid lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1" action="">
                                 <div>
 
-                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Nombre</label>
+                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Cedula</label>
                                     <input type="text" class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out" />
                                 </div>
                                 <div class="">
-                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Apellido</label>
+                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Nombres</label>
                                     <input class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out" type="text">
                                 </div>
                                 <div class="">
-                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Nombre</label>
+                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Apellidos</label>
                                     <input class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out" type="text" />
                                 </div>
                                 <div class="space-y-2">
-                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Apellido</label>
+                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Telefono</label>
                                     <input class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out" type="text">
                                 </div>
                                 <div class="space-y-2">
-                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Nombre</label>
+                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Direccion</label>
                                     <input class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out" type="text" />
                                 </div>
                                 <div class="space-y-2">
-                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Apellido</label>
+                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Fecha de nacimiento</label>
+                                    <input class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out" type="date">
+                                </div>
+                                <div class="space-y-2 ">
+                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Cargo</label>
                                     <input class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out" type="text">
                                 </div>
+                                <!-- Rellenando Casillas de grid -->
+                                <div class="">
+                                </div>
+                                <div class="">
+                                </div>
+                                <!-- Rellenando Casillas de grid -->
                                 <div class="place-self-start mt-10">
                                     <button class="bg-blue-500 text-white rounded-md p-2" type="submit ">Enviar</button>
                                 </div>
