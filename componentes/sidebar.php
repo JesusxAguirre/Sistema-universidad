@@ -13,7 +13,7 @@
 <body>
 
   <div class="flex flex-col  space-y-5 justify-between min-h-screen
-   px-2 py-4 bg-gray-200 lg:w-52 md:w-24 sm:w-16">
+   px-2 py-4 bg-gray-200 lg:w-52  md:w-24  w-16">
     <div class=" flex items-center justify-between text-gray-600 text-3xl px-5">
       Usuarios
     </div>
