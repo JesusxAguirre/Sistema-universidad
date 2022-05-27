@@ -25,39 +25,44 @@
         <div class="flex-auto">
             <div class="flex flex-col">
                 <div class="flex flex-col bg-white">
-                    <div class="flex flex-row space-x-3">
-                        <h4 class="font-bold text-gray-500 p-3">Plantilla</h4>
+                    <div class="flex flex-row  space-x-3">
+                        <h4 class=" font-bold text-gray-500 p-3 text-2xl">Registrar Empleados</h2>
 
                     </div>
-                    <p class="text-gray-400 p-1">4 de Abril del 2022 </p>
                 </div>
                 <div class="min-h-screen bg-blue-100">
                     <!-- Aqui Se acomdan todas las grid -->
-
-
                     <div class=" mt-5 p-4 ">
                         <div class="p-8 bg-white rounded shadow-sm">
-                            <form class="" action="">
-                                
-                                    <label class="" for="">Nombre</label>
-                                    <input class="border border-black p-2 " type="text" />
+                            <form class=" grid lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1" action="">
+                                <div>
 
-                                    <label class="" for="">Apellido</label>
-                                    <input class=" border border-black p-2 " type="text">
-
-                                    <label for="">Nombre</label>
-                                    <input class="border border-black p-2 " type="text" />
-
-                                    <label for="">Apellido</label>
-                                    <input class="border border-black p-2 " type="text">
-
-                                    <label for="">Nombre</label>
-                                    <input class="border border-black p-2 " type="text" />
-
-                                    <label for="">Apellido</label>
-                                    <input class="border border-black p-2 " type="text">
-                                    <button class="bg-blue-500 rounded-lg ml-10 text-black" type="submit ">Enviar</button>
-                                   
+                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Nombre</label>
+                                    <input type="text" class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out" />
+                                </div>
+                                <div class="">
+                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Apellido</label>
+                                    <input class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out" type="text">
+                                </div>
+                                <div class="">
+                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Nombre</label>
+                                    <input class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out" type="text" />
+                                </div>
+                                <div class="space-y-2">
+                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Apellido</label>
+                                    <input class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out" type="text">
+                                </div>
+                                <div class="space-y-2">
+                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Nombre</label>
+                                    <input class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out" type="text" />
+                                </div>
+                                <div class="space-y-2">
+                                    <label class="block text-gray-700 text-sm font-bold mb-2" for="">Apellido</label>
+                                    <input class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out" type="text">
+                                </div>
+                                <div class="place-self-start mt-10">
+                                    <button class="bg-blue-500 text-white rounded-md p-2" type="submit ">Enviar</button>
+                                </div>
                             </form>
 
                         </div>
