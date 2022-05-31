@@ -67,15 +67,11 @@ $(document).ready(function(){
           //FIN GRAFICAS
         //sidebar
        
-        $("#mostrar_sidebar").click(mostrar_sidebar);
 
-
-          //FIN sidebar
-
-
-        
+ 
  });
  
+  //Funciones
  
 function mostrar(){
  $("#submenu").toggle();
@@ -113,3 +109,4 @@ function mostrar_pagos(){
 function mostrar_graficas(){
     $("#graficassub").toggle();
 }  
+
