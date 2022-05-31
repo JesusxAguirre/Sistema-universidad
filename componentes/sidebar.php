@@ -11,9 +11,13 @@
 </head>
 
 <body>
-
-  <div class="sidebar fixed top-0 bottom-0 lg:left-0 p-2 w-[300px] overflow-y-auto
+<span class="absolute text-white text-4xl top-5  left-4 cursor-pointer">
+    <i class="fa-solid fa-bars px-2 bg-gray-900  rounded-md "></i>
+  </span>
+  <div class="sidebar fixed top-0 bottom-0 left-[-300px] lg:left-0 p-2 w-[200px] 
+  overflow-y-auto
   text-center bg-gray-900">
+  
       <div class="text-gray-100 text-xl">
           <div class="p-2.5 mt-1 flex items-center">
           <i class="bg-blue-500 p-3 rounded lg:hidden fa-solid fa-align-justify"></i>
@@ -69,6 +73,12 @@
 
     </div>
 
+
+       <!-- Boton de cerrar sesion ITEM -->
+       <?php
+      require_once 'sidebar item list/logout.php';
+      ?>
+      <!--  FIN Boton de cerrar sesion ITEM -->
   </div>
 
 </body>

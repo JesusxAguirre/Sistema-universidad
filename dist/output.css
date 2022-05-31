@@ -492,6 +492,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -506,6 +510,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .left-0 {
   left: 0px;
+}
+
+.left-\[-300px\] {
+  left: -300px;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.left-4 {
+  left: 1rem;
 }
 
 .col-span-2 {
@@ -646,12 +662,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 80%;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
 .min-w-full {
   min-width: 100%;
 }
 
 .flex-auto {
   flex: 1 1 auto;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-none {
+  flex: none;
 }
 
 .flex-shrink-0 {
@@ -678,6 +706,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -982,6 +1018,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-\[15px\] {
   font-size: 15px;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {

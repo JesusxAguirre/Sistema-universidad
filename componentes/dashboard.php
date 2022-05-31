@@ -11,9 +11,9 @@
 <body>
   <div class="flex-auto">
     <div class="flex flex-col">
-      <div class="flex flex-col bg-white">
+      <div class="flex flex-col bg-white items-center">
         <div class="flex flex-row space-x-3">
-          <h4 class="font-bold text-gray-500 p-3">Dashboard</h4>
+          <h4 class="text-3xl font-bold text-gray-500 p-3">Home</h4>
 
         </div>
         <p class="text-gray-400 p-1">4 de Abril del 2022 </p>
