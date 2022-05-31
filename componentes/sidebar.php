@@ -68,9 +68,7 @@
       <!--  FIN DROPDOWN SERVICIOS ITEM -->
 
     </div>
-    <div class="flex flex-col">
-      <button class="rounded-full bg-blue-500 py-2 text-white text-lg">Logout</button>
-    </div>
+
   </div>
 
 </body>
