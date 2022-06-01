@@ -26,7 +26,7 @@
             <div class="flex flex-col">
                 <div class="flex flex-col bg-white items-center">
                     <div class="flex flex-row  space-x-3">
-                        <h4 class=" font-bold text-gray-500 p-3 text-2xl">Registrar Empleados</h2>
+                        <h4 class="mt-2 font-bold text-gray-500 p-3 text-2xl">Registrar Empleados</h2>
 
                     </div>
                 </div>
@@ -67,9 +67,9 @@
                                 <!-- Rellenando Casillas de grid -->
                                 <div class="">
                                 </div>
-                                <div class="">
-                                </div>
                                 <!-- Rellenando Casillas de grid -->
+                                <div class="">
+                                </div>    
                                 <div class="place-self-start mt-10">
                                     <button class="bg-blue-500 text-white rounded-md p-2" type="submit ">Enviar</button>
                                 </div>
