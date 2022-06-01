@@ -4,7 +4,7 @@
   <a href="?pagina=dashboard">
     <i class="lg:text-2xl md:text-base text-sm fa-solid fa-house"></i>
 
-    <span class="text-[15px] ml-4 text-gray-200 ">Dashboard</span>
+    <span class="text-[15px] ml-4 text-gray-200 ">Home</span>
 
   </a>  
 </div>
