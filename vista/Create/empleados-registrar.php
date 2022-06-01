@@ -24,7 +24,7 @@
 
         <div class="flex-auto">
             <div class="flex flex-col">
-                <div class="flex flex-col bg-white">
+                <div class="flex flex-col bg-white items-center">
                     <div class="flex flex-row  space-x-3">
                         <h4 class=" font-bold text-gray-500 p-3 text-2xl">Registrar Empleados</h2>
 

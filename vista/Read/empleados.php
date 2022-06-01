@@ -22,12 +22,11 @@
 	
 	<div class="flex-auto">
         <div class="flex flex-col">
-            <div class="flex flex-col bg-white">
+            <div class="flex flex-col bg-white items-center ">
                 <div class="flex flex-row space-x-3">
-                    <h4 class="font-bold text-gray-500 p-3">Plantilla</h4>
+                    <h4 class="text-2xl mt-2 font-bold text-gray-500 p-3">Listar Empleados</h4>
                     
                 </div>
-                <p class="text-gray-400 p-1">4 de Abril del 2022 </p>
             </div>
             <div class="min-h-screen bg-blue-100">
                  <!-- Aqui Se acomdan todas las grid -->
