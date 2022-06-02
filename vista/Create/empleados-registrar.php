@@ -30,15 +30,15 @@
               </h2>
             </div>
           </div>
-          <div class="min-h-screen bg-blue-100">
+          <div class="min-h-screen bg-blue-100 ">
             <!-- Aqui Se acomdan todas las grid -->
             <div class="mt-5 p-4">
-              <div class="p-8 bg-white rounded shadow-sm">
+              <div class="p-8  bg-white rounded shadow-sm">
                 <form
-                  class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1"
+                  class="grid  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center"
                   action=""
                 >
-                  <div>
+                  <div class="">
                     <label
                       class="block text-gray-700 text-sm font-bold mb-2"
                       for=""
@@ -100,7 +100,7 @@
                       >Fecha de nacimiento</label
                     >
                     <input
-                      class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
+                      class="block w-60 pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                       type="date"
                     />
                   </div>
@@ -119,7 +119,10 @@
                   <div class=""></div>
                   <!-- Rellenando Casillas de grid -->
                   <div class=""></div>
-                  <div class="place-self-start mt-10">
+                  <!-- Rellenando Casillas de grid -->
+                  <div class=""></div>
+                  <!-- Rellenando Casillas de grid -->
+                  <div class="mt-10">
                     <button
                       class="bg-blue-500 text-white rounded-md p-2"
                       type="submit "
