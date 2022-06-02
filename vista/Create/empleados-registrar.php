@@ -48,6 +48,7 @@
                     >
                     <input
                       type="text"
+                      id="cedula"
                       class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                     />
                   </div>
@@ -60,6 +61,7 @@
                     <input
                       class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                       type="text"
+                      id="nombre"
                     />
                   </div>
                   <div class="">
@@ -71,6 +73,7 @@
                     <input
                       class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                       type="text"
+                      id="apellido"
                     />
                   </div>
                   <div class="space-y-2">
@@ -82,6 +85,7 @@
                     <input
                       class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                       type="text"
+                      id="telefono"
                     />
                   </div>
                   <div class="space-y-2">
@@ -93,6 +97,7 @@
                     <input
                       class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                       type="text"
+                      id="direccion"
                     />
                   </div>
                   <div class="space-y-2">
@@ -104,6 +109,7 @@
                     <input
                       class="block w-60 pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                       type="date"
+                      id="fecha"
                     />
                   </div>
                   <div class="space-y-2">
@@ -115,6 +121,7 @@
                     <input
                       class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                       type="text"
+                      id="cargo"
                     />
                   </div>
                   <!-- Rellenando Casillas de grid -->
