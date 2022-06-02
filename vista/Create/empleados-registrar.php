@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dashboard</title>
+    <title>Registrar empleados</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=0.6" />
     <!-- Imagen universidad -->
@@ -11,6 +11,7 @@
     <!-- libreria Jquery -->
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/sidebar.js"></script>
+    <script src="js/Empleados/validacion.js"></script>
   </head>
 
   <body>
@@ -37,6 +38,7 @@
                 <form
                   class="grid  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center"
                   action=""
+                  id="formulario"
                 >
                   <div class="">
                     <label

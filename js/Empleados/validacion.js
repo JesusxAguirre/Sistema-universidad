@@ -1,6 +1,6 @@
 const formulario = document.getElementById('formulario');
 
-const inputs = document.querySelectorAll('#formulario');
+const inputs = document.querySelectorAll('#formulario input');
 
 const expresiones = {
   cedula: /^[V|E|J|P][0-9]{5,9}$/,
