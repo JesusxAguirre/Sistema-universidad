@@ -69,7 +69,7 @@
                                 </div>
                                 <!-- Rellenando Casillas de grid -->
                                 <div class="">
-                                </div>    
+                                </div>
                                 <div class="place-self-start mt-10">
                                     <button class="bg-blue-500 text-white rounded-md p-2" type="submit ">Enviar</button>
                                 </div>
