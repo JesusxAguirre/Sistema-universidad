@@ -17,8 +17,8 @@
     <div class="flex flex-row">
       <!-- SIDEBAR -->
       <?php
-        require_once 'componentes/sidebar.php';
-        ?>
+    require_once 'componentes/sidebar.php';
+    ?>
       <!-- FIN SIDEBAR -->
 
       <div class="flex-auto">
