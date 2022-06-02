@@ -40,7 +40,7 @@
                   action=""
                   id="formulario"
                 >
-                  <div class="">
+                  <div id="grupo__cedula" >
                     <label
                       class="block text-gray-700 text-sm font-bold mb-2"
                       for=""
@@ -52,7 +52,7 @@
                       class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                     />
                   </div>
-                  <div class="">
+                  <div id="grupo__nombre">
                     <label
                       class="block text-gray-700 text-sm font-bold mb-2"
                       for=""
@@ -64,7 +64,7 @@
                       id="nombre"
                     />
                   </div>
-                  <div class="">
+                  <div id="grupo__apellido">
                     <label
                       class="block text-gray-700 text-sm font-bold mb-2"
                       for=""
@@ -76,7 +76,7 @@
                       id="apellido"
                     />
                   </div>
-                  <div class="space-y-2">
+                  <div class="space-y-2" id="grupo__telefono">
                     <label
                       class="block text-gray-700 text-sm font-bold mb-2"
                       for=""
@@ -88,7 +88,7 @@
                       id="telefono"
                     />
                   </div>
-                  <div class="space-y-2">
+                  <div class="space-y-2" id="grupo__direccion">
                     <label
                       class="block text-gray-700 text-sm font-bold mb-2"
                       for=""
@@ -100,7 +100,7 @@
                       id="direccion"
                     />
                   </div>
-                  <div class="space-y-2">
+                  <div class="space-y-2" id="grupo__fecha">
                     <label
                       class="block text-gray-700 text-sm font-bold mb-2"
                       for=""
@@ -112,7 +112,7 @@
                       id="fecha"
                     />
                   </div>
-                  <div class="space-y-2">
+                  <div class="space-y-2" id="grupo__cargo">
                     <label
                       class="block text-gray-700 text-sm font-bold mb-2"
                       for=""
