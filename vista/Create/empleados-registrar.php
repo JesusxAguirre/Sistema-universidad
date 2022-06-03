@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.6" />
     <!-- Imagen universidad -->
     <link rel="Shortcut Icon" href="img/favicon.png" />
+     <!-- Estilos css -->
     <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css">
     <link rel="stylesheet" href="dist/output.css" />
     <!-- libreria Jquery -->
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/sidebar.js"></script>
-    <script src="js/Empleados/validacion.js"></script>
+    
   </head>
 
   <body class="bg-white font-[Poppins]">
@@ -46,11 +47,14 @@
                       for=""
                       >Cedula</label
                     >
+                    <i class="absolute ml-56 mt-[5px] text-2xl fa-solid"></i>
                     <input
                       type="text"
                       id="cedula"
+                      placeholder="Ej: V12345678"
                       class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                     />
+                   
                   </div>
                   <div id="grupo__nombre">
                     <label
@@ -58,10 +62,12 @@
                       for=""
                       >Nombres</label
                     >
+                    <i class="absolute ml-56 mt-[5px] text-2xl fa-solid"></i>
                     <input
                       class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                       type="text"
                       id="nombre"
+                      placeholder="Ej: Juan David"
                     />
                   </div>
                   <div id="grupo__apellido">
@@ -70,10 +76,12 @@
                       for=""
                       >Apellidos</label
                     >
+                    <i class="absolute ml-56 mt-[5px] text-2xl fa-solid"></i>
                     <input
                       class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                       type="text"
                       id="apellido"
+                      placeholder="Ej: Perez Jimenez"
                     />
                   </div>
                   <div class="space-y-2" id="grupo__telefono">
@@ -82,10 +90,12 @@
                       for=""
                       >Telefono</label
                     >
+                    <i class="absolute ml-56 mt-[5px] text-2xl fa-solid"></i>
                     <input
                       class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                       type="text"
                       id="telefono"
+                      placeholder="Ej:  04161234567"
                     />
                   </div>
                   <div class="space-y-2" id="grupo__direccion">
@@ -94,10 +104,12 @@
                       for=""
                       >Direccion</label
                     >
+                    <i class="absolute ml-56 mt-[5px] text-2xl fa-solid"></i>
                     <input
                       class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                       type="text"
                       id="direccion"
+                      placeholder="Zona este"
                     />
                   </div>
                   <div class="space-y-2" id="grupo__fecha">
@@ -106,6 +118,7 @@
                       for=""
                       >Fecha de nacimiento</label
                     >
+                    <i class="absolute ml-56 mt-[5px] text-2xl fa-solid"></i>
                     <input
                       class="block w-60 pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                       type="date"
@@ -117,11 +130,14 @@
                       class="block text-gray-700 text-sm font-bold mb-2"
                       for=""
                       >Cargo</label
+                     
                     >
+                    <i class="absolute ml-56 mt-[5px] text-2xl fa-solid"></i>
                     <input
                       class="block pr-10 shadow appearance-none border-2 border-blue-100 rounded py-2 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 transition duration-500 ease-in-out"
                       type="text"
                       id="cargo"
+                      placeholder="Medico"
                     />
                   </div>
                   <!-- Rellenando Casillas de grid -->
@@ -146,6 +162,7 @@
         </div>
       </div>
     </div>
-  
+    <!-- Llamada de validacion de formulario no se hizo en el head porque no renderizaba bien el DOM -->
+    <script src="js/empleados/validacion.js"></script>
   </body>
 </html>
