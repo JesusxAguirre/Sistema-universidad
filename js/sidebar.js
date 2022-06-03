@@ -32,6 +32,15 @@ function mostrar_graficas() {
 }
 
 $(document).ready(() => {
+  // Funcion de togle de sidebar
+  $('#1').on('click', (e) => {
+    $('#2').toggleClass('left-[-300px]');
+    e.preventDefault();
+  });
+  $('#3').on('click', (e) => {
+    $('#2').toggleClass('left-[-300px]');
+    e.preventDefault();
+  });
   // aqui va el codigo javascript
   // OCULTAMIENTO
   $('#submenu').hide();

@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.min.css">
-  <link rel="stylesheet" href="./dist/output.css">
-
-  <title>Sidebar</title>
-</head>
-
-<body>
   <!-- Icono de hide y show -->
   <span  id="1" class="absolute text-white text-4xl top-5  left-4 cursor-pointer">
     <i class="fa-solid fa-bars px-2 bg-gray-900  rounded-md "></i>
@@ -91,16 +78,3 @@
     ?>
     <!--  FIN Boton de cerrar sesion ITEM -->
   </div>
-  <script>    
-    $('#1').on('click', function(e) {
-      $('#2').toggleClass("left-[-300px]"); 
-      e.preventDefault();
-    });
-    $('#3').on('click', function(e) {
-      $('#2').toggleClass("left-[-300px]"); 
-      e.preventDefault();
-    });
-</script>
-</body>
-
-</html>
